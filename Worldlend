@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+
+    int number, sum = 0, temp;
+
+   
+
+    scanf("%d", &number);
+
+   
+
+    temp = number;
+
+ 
+
+    while (number != 0) {
+
+        sum += number % 10;
+
+        number /= 10;
+
+    }
+
+  
+
+    printf("Bird said:%d\n", temp);
+
+    printf("Alice must go in path-%d\n", sum);
+
+    return 0;
+
+}
